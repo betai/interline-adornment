@@ -63,7 +63,9 @@
     <Compile Include="SuggestionControl.xaml.cs">
       <DependentUpon>SuggestionControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SuggestionInterLineAdornmentTaggerProvider.cs" />
     <Compile Include="SuggestionSession.cs" />
+    <Compile Include="SuggestionTag.cs" />
     <Compile Include="TestCommand1.cs" />
     <Compile Include="TestCommand1Package.cs" />
   </ItemGroup>
