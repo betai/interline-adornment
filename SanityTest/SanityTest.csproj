@@ -53,9 +53,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="IDesiredHeightProvider.cs" />
     <Compile Include="InterLineAdornmentManager.cs" />
     <Compile Include="InterLineAdornmentManagerFactory.cs" />
     <Compile Include="InterLineAdornmentTag.cs" />
+    <Compile Include="ISuggestionSession.cs" />
+    <Compile Include="MappingHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SuggestionControl.xaml.cs">
       <DependentUpon>SuggestionControl.xaml</DependentUpon>
